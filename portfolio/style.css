@@ -240,7 +240,12 @@ section .title::after {
     color: #292929;
     background: none;
 }
-
+#dp {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px double #292929;
+}
 /* footer section styling */
 footer {
     background: #292929;
