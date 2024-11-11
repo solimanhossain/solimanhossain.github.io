@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soliman Hossain</title>
+    <link 
+        rel="icon" 
+        href="css/images/logo.svg"
+        type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Senti<span>SOL</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#project" class="menu-btn">Project</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hi, it's me</div>
+                <div class="text-2">Soliman Hossain,</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <button  class="btn outline"><a class="top-btn" href = "https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=solimanhossain">Follow</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="max-width bg-blur">
+            <h2 class="project-title">Projects</h2>
+            <div class="projects-flex"  id="projects-container"></div>
+            <div class="projects-slider" id="projects-slider">
+        <div class="slider-wrapper" id="slider-wrapper"></div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width bg-blur">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div  class="column left">
+                    <img id="dp" src="https://github.com/solimanhossain.png" alt="dp">
+                </div>
+                <div class="column right">
+                    <div class="text">SOLIMAN HOSSAIN <span class="typing-2"></span></div>
+                    <p>Enthusiastic Web Developer specializing in React and Next.js, driven by a passion for creating seamless, high-quality web applications. With a strong technical foundation and hands-on experience in guiding projects from inception to deployment, I bring a focused, hard-working approach to problem-solving and innovation. Known for my attention to detail and ability to work well both independently and in teams. I am dedicated to crafting user-centered, efficient solutions that meet evolving business needs. Continuously learning and adapting, I strive to deliver impactful digital experiences.</p>
+                    <div class="button-wrapper"> 
+                        <button class="btn fill"><a href="https://tinyurl.com/solimanhossainresume">CV</a></button>
+                        <button class="btn outline"><a href="mailto:solimanhossainsohan@gmail.com">Mail</a></button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+
+    <footer>
+        <span>Created By SOLIMAN</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/projects.js"></script><script src="js/script.js"></script>
+</body>
+</html>

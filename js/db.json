@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "SOLEdu Central",
+        "description": "NextJs | Mogodb | Chadcn/ui | TailwindCss",
+        "image": "https://github.com/solimanhossain/sol-edu-central/blob/main/public/preview.png?raw=true",
+        "codeLink": "https://github.com/solimanhossain/sol-edu-central/",
+        "liveLink": "https://sol-edu-central.vercel.app/"
+    },
+    {
+        "id": 2,
+        "title": "LWSKART",
+        "description": "NextJs | NextAuth | Mogodb | React Form | TailwindCss",
+        "image": "https://picsum.photos/200",
+        "codeLink": "https://github.com/solimanhossain/lwskart-nextjs",
+        "liveLink": "https://soliman-final-lwskart.vercel.app/"
+    },
+    {
+        "id": 3,
+        "title": "React Blogify",
+        "description": "React Js | API | React Query | TailwindCss",
+        "image": "https://github.com/solimanhossain/react-blogify/blob/main/public/preview.png?raw=true",
+        "codeLink": "https://github.com/solimanhossain/react-blogify/",
+        "liveLink": "https://solimanhossain-react-blogify.vercel.app/"
+    },
+    {
+        "id": 4,
+        "title": "FaceHook",
+        "description": "React Js | React Form | API | TailwindCss",
+        "image": "https://github.com/solimanhossain/facehook/blob/main/public/preview.png?raw=true",
+        "codeLink": "https://github.com/solimanhossain/react-ecommerce/",
+        "liveLink": "https://solimanhossain-react-ecommerce.vercel.app/"
+    },
+    {
+        "id": 5,
+        "title": "Caption Generator",
+        "description": "Django | Pretained Model | Bootstrap",
+        "image": "https://github.com/solimanhossain/image_caption_generate/raw/main/media/previews/output-sample-1.png?raw=true",
+        "codeLink": "https://github.com/solimanhossain/image_caption_generate/",
+        "liveLink": "#"
+    },
+    {
+        "id": 6,
+        "title": "Thesis Work",
+        "description": "Stock Market Analysis Using Twitter Sentiment",
+        "image": "https://i.postimg.cc/3r99Gz7n/System-Architecture.png",
+        "codeLink": "https://drive.google.com/file/d/1DJPXYo1D3hda8V5He30CrRt30Qe9OoJ0/view?usp=sharing",
+        "liveLink": "https://www.overleaf.com/project/632cc1fc673fad13f92c39d0"
+    }
+]
